@@ -1,0 +1,59 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-color: #0d0d0d;
+    color: #e0e0e0;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 3em;
+    color: #00ffcc;
+    text-shadow: 0 0 10px #00ffcc, 0 0 20px #00997a;
+    margin-top: 40px;
+}
+
+input {
+    padding: 10px 15px;
+    margin: 12px;
+    border: 2px solid #00ffcc;
+    border-radius: 8px;
+    background-color: #1a1a1a;
+    color: #fff;
+    outline: none;
+    transition: 0.3s ease;
+}
+
+input:focus {
+    border-color: #ff00ff;
+    box-shadow: 0 0 10px #ff00ff;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #00ffcc, #ff00ff);
+    color: #0d0d0d;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #00ffcc, 0 0 25px #ff00ff;
+}
+
+button:active {
+    transform: scale(0.95);
+    box-shadow: inset 0 0 10px #000;
+}
+
+p {
+    margin: 15px;
+    font-size: 1.2em;
+    color: #ff00ff;
+    text-shadow: 0 0 5px #ff00ff;
+}
